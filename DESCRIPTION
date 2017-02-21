@@ -1,0 +1,15 @@
+Package: formatEQ
+Title: Formats R Code with Preference for Equal Symbol
+Version: 0.0.1
+Authors@R: c(person("James", "Balamuta", email = "balamut2@illinois.edu", role = c("aut", "cre")),
+    person("Yihui", "Xie", email = "xie@yihui.name", role = c("aut")),
+    person("Kohske", "Takahashi", role = "ctb"),
+    person("Ed", "Lee", role = "ctb"))
+Description: Overrides the formatting function within formatR to change equal
+    symbols from `<-` to `=`.
+Depends: R (>= 3.3.2)
+Imports: formatR, codetools
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
