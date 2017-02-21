@@ -99,4 +99,4 @@ modify_pkg_function = function(fname, fdef, package){
 #'   # write into clipboard again
 #'   tidy_source("clipboard", file = "clipboard")
 #' }
-tidy_source <- formatR::tidy_source
+tidy_source = formatR::tidy_source
